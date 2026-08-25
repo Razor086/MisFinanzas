@@ -334,3 +334,12 @@ p {
 .logo-accent {
   color: var(--primary-green);
 }
+/* Scroll suave para toda la página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Opcional: compensación para que el header fijo no tape el título de la sección */
+section[id] {
+  scroll-margin-top: 80px;
+}
